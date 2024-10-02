@@ -116,7 +116,6 @@ Resources:
   Pipeline:
     Type: AWS::CodePipeline::Pipeline
     Properties:
-      Name: "SAM-CICD-PIPELINE"
       ArtifactStore:
         Location: !Ref PipelineArtifactsBucket
         Type: S3
